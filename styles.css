@@ -177,6 +177,27 @@
      grid-template-columns: repeat(2, 1fr);
  }
 
+ .form-bg {
+     margin-top: 80px;
+     margin-left: 50px;
+     position: relative;
+
+ }
+
+ .form-bg-img {
+
+     height: auto;
+     display: block;
+ }
+
+
+ .input-text {
+     position: absolute;
+     top: 160px;
+     left: 210px;
+     text-align: center;
+ }
+
  @media screen and (max-width:576px) {
      .navbar {
          width: 100%;
@@ -220,7 +241,7 @@
 
      .body {
          grid-template-columns: repeat(1, 1fr);
-         width: 100%;
+
          margin-left: 0;
      }
 
@@ -239,10 +260,18 @@
 
      .deals {
          grid-template-columns: repeat(1, 1fr);
-         margin-left: 50px;
+         margin-left: 55px;
+
      }
 
      .bg-img {
-         width: 33%;
+         width: 380px;
      }
+
+     .bn-img {
+         width: 420px;
+         height: 275px;
+         margin-left: 0px;
+     }
+
  }
