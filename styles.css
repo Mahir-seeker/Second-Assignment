@@ -147,11 +147,34 @@
      top: -100px;
  }
 
- .grid-layout {
+ .Big-img {
+     position: relative;
+ }
+
+ .img-text {
+     position: absolute;
+     top: 150px;
+     left: 170px;
+     text-align: center;
+ }
+
+ .small-img {
+     position: relative;
+ }
+
+ .small-img-text {
+     position: absolute;
+     top: 50px;
+     left: 80px;
+     text-align: center;
+ }
+
+ .deals {
+     width: 1140px;
+     margin-left: 200px;
+     margin-top: 80px;
      display: grid;
      grid-template-columns: repeat(2, 1fr);
-     margin-left: 215px;
-     margin-right: 215px;
  }
 
  @media screen and (max-width:576px) {
@@ -212,5 +235,14 @@
      .x {
          padding-top: 10px;
          margin-left: 0;
+     }
+
+     .deals {
+         grid-template-columns: repeat(1, 1fr);
+         margin-left: 50px;
+     }
+
+     .bg-img {
+         width: 33%;
      }
  }
